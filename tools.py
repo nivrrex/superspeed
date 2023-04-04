@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import time,urllib2,json,sys
+import time,urllib,json,sys
 import shlex
 import datetime
 import subprocess
@@ -16,7 +16,7 @@ def GetIpipInfo(para):
     print(jjson[para.encode('utf-8')])
 
 def GetGeoioInfo(para):
-    ip_api = urllib2.urlopen(r'http://ip-api.com/json')
+    ip_api = urllib.request.urlopen(r'http://ip-api.com/json')
     ijson = json.loads(ip_api.read())
     print(ijson[para.encode('utf-8')])
     
