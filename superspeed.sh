@@ -36,10 +36,10 @@ checkpython() {
 	        echo "正在安装 Python"
 	            if [ "${release}" == "centos" ]; then
 	            		yum update > /dev/null 2>&1
-	                    yum -y install python > /dev/null 2>&1
+	                    yum -y install pypy3 > /dev/null 2>&1
 	                else
 	                	apt-get update > /dev/null 2>&1
-	                    apt-get -y install python > /dev/null 2>&1
+	                    apt-get -y install pypy3 > /dev/null 2>&1
 	                fi
 	        
 	fi
