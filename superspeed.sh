@@ -15,7 +15,10 @@ about() {
     echo " \                   v2.0.0 (6 Sep 2020)                 / "
     echo " \                   代码由 Oldking 编写                 / "
     echo " \              修改以及汉化由 qd201211 完成             / "
-    echo " \              *二次修改*由 nivrrex 完成             / "
+    echo " \                                                       / "
+    echo " \              二次修改由 nivrrex 完成                  / "
+    echo " \              修改内容：python3环境，print错误         / "
+    echo " \              speedtest下载修复，tools.py本地          / "
     echo " ========================================================= "
     echo ""
     echo " Copyright (C) 2019 Oldking oooldking@gmail.com"
@@ -24,7 +27,7 @@ about() {
 
 preinfo() {
     echo "                   Superbench 服务器性能测试                          "
-    echo "       bash <(curl -Lso- https://raw.githubusercontent.com/ernisn/superspeed/master/superspeed.sh)"
+    echo "       bash <(curl -Lso- https://raw.githubusercontent.com/nivrrex/superspeed/master/superspeed.sh)"
     echo "       全部节点列表:  https://git.io/superspeedList"
     echo "       节点更新: 2020/04/09  | 脚本更新: 2023/04/04"
     echo "----------------------------------------------------------------------"
