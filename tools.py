@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import time,urllib,json
-import importlib,sys
+import urllib.request
+import time
+import json
 import shlex
 import datetime
 import subprocess
-
-importlib.reload(sys)
 
 def GetIpipInfo(para):
     f = open("ip_json.json",'r')
