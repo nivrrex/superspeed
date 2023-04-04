@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import time,urllib,json,sys
+import time,urllib,json
+import importlib,sys
 import shlex
 import datetime
 import subprocess
 
-reload(sys)
+importlib.reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def GetIpipInfo(para):
