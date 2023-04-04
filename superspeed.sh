@@ -15,7 +15,7 @@ about() {
     echo " \                   v2.0.0 (6 Sep 2020)                 / "
     echo " \                   代码由 Oldking 编写                 / "
     echo " \              修改以及汉化由 qd201211 完成             / "
-    echo " \              *二次修改*以及汉化由 nivrrex 完成             / "
+    echo " \              *二次修改*由 nivrrex 完成             / "
     echo " ========================================================= "
     echo ""
     echo " Copyright (C) 2019 Oldking oooldking@gmail.com"
