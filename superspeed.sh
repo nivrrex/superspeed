@@ -16,7 +16,7 @@ about() {
     echo " \                   代码由 Oldking 编写                 / "
     echo " \              修改以及汉化由 qd201211 完成             / "
     echo " \                                                       / "
-    echo " \                二次修改由 nivrrex 完成                / "
+    echo " \                 二次修改由 nivrrex 完成               / "
     echo " \             修改内容：tools脚本用python3改写          / "
     echo " \              speedtest.cli tools.py下载修改           / "
     echo " ========================================================= "
