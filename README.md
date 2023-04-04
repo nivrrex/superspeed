@@ -3,7 +3,7 @@
 
 ## 使用方法
 ```
-bash <(curl -Lso- https://git.io/superspeed)
+bash <(curl -Lso- https://raw.githubusercontent.com/ernisn/superspeed/master/superspeed.sh)
 ```
 
 ## 节点列表
@@ -18,5 +18,5 @@ bash <(curl -Lso- https://git.io/superspeed)
 
 <a name="脚注2">2</a>: 仅包括中国大陆地区电信、联通、移动节点。
 
-<a name="脚注3">3</a>: 使用 [ookla](https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-1.0.0-x86_64-linux.tgz) 提供的测速程序
+<a name="脚注3">3</a>: 使用 [librespeed](https://github.com/librespeed/speedtest-cli) 提供的测速程序
 。
