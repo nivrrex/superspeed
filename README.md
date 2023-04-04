@@ -18,5 +18,5 @@ bash <(curl -Lso- https://raw.githubusercontent.com/ernisn/superspeed/master/sup
 
 <a name="脚注2">2</a>: 仅包括中国大陆地区电信、联通、移动节点。
 
-<a name="脚注3">3</a>: 使用 [librespeed](https://github.com/librespeed/speedtest-cli) 提供的测速程序
+<a name="脚注3">3</a>: 使用 [speedtest-cli](https://www.speedtest.net/apps/cli)) 提供的测速程序
 。
