@@ -73,9 +73,11 @@ benchinit() {
                 if [ "${release}" == "centos" ]; then
                         yum update > /dev/null 2>&1
                         yum -y install python3 > /dev/null 2>&1
+                        ln -s /usr/bin/python3 /usr/bin/python
                     else
                         apt-get update > /dev/null 2>&1
                         apt-get -y install python3 > /dev/null 2>&1
+                        ln -s /usr/bin/python3 /usr/bin/python
                     fi
             #else
             #    exit
